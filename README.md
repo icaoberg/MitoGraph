@@ -24,6 +24,25 @@ Matheus Viana - vianamp@gmail.com - 01.19.2018
 
 ---
 
+### Compiling MitGraph from source
+
+#### MacOSX
+
+To compile from source you need to install two dependencies, [CMake](https://cmake.org/) and [VTK 7](https://www.vtk.org/). Installing the dependencies is beyond the scope of this document. However, if you are using [HomeBrew](https://brew.sh/).
+
+```
+brew install cmake
+brew install vtk --c+11 -Wno-c++11-narrowing --with-examples --with-qt5
+```
+
+```
+git clone git@github.com:icaoberg/MitoGraph.git
+cd MitoGraph
+
+```
+
+---
+
 ### How to Install
 
 Please follow the steps bellow to install MitoGraph.
